@@ -19,51 +19,61 @@ body {
   background-color: #f9fbff;
 }
 
-table {
+.native-table {
   border-collapse: collapse;
   box-shadow: 0 5px 10px #e1e5ee;
   background-color: white;
   text-align: left;
   overflow: hidden;
 }
-table thead {
+
+.native-table thead {
   box-shadow: 0 5px 10px #e1e5ee;
 }
-table th {
+
+.native-table th {
   padding: 1rem 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
   font-weight: 900;
 }
-table td {
-  padding: 1rem 2rem;
+
+.native-table td {
+  padding: 0.7rem 1.8rem;
 }
-table a {
+
+.native-table a {
   text-decoration: none;
   color: #2962ff;
 }
-table .status {
+
+.native-table .status {
   border-radius: 0.2rem;
   background-color: red;
   padding: 0.2rem 1rem;
   text-align: center;
 }
-table .status-pending {
+
+.native-table .status-pending {
   background-color: #fff0c2;
   color: #a68b00;
 }
-table .status-paid {
+
+.native-table .status-paid {
   background-color: #c8e6c9;
   color: #388e3c;
 }
-table .status-unpaid {
+
+.native-table .status-unpaid {
   background-color: #ffcdd2;
   color: #c62828;
 }
-table .amount {
+
+.native-table .amount {
   text-align: right;
 }
-table tr:nth-child(even) {
+
+.native-table tr:nth-child(even) {
   background-color: #f4f6fb;
 }
